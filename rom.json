@@ -2,7 +2,7 @@
   "roms": {
     "AxionAOSP": {
       "rom_name": "AxionAOSP",
-      "image": "/images/Axion.png",
+      "image": "images/Axion.png",
       "versions": {
         "2.2.1": {
           "android_version": "16",
@@ -44,7 +44,7 @@
 
     "Crdroid": {
       "rom_name": "Crdroid",
-      "image": "/images/Crdroid.png",
+      "image": "images/Crdroid.png",
       "versions": {
         "7.16": {
           "android_version": "11",
@@ -134,7 +134,7 @@
 
     "InfinityX": {
       "rom_name": "Infinity X",
-      "image": "/images/infinityX.png",
+      "image": "images/infinityX.png",
       "versions": {
         "3.4": {
           "android_version": "16",

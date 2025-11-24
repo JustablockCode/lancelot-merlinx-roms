@@ -3,23 +3,23 @@ let romData = null;
 
 
 const androidLogos = {
-    "11": "/images/A11.png",
-    "12": "/images/A12.png",
-    "13": "/images/A13.png",
-    "14": "/images/A14.png",
-    "15": "/images/A15.png",
-    "16": "/images/A16.png"
+    "11": "images/A11.png",
+    "12": "images/A12.png",
+    "13": "images/A13.png",
+    "14": "images/A14.png",
+    "15": "images/A15.png",
+    "16": "images/A16.png"
 };
 
 
 const devices = {
     lancelot: {
         name: "Redmi 9 Lancelot",
-        image: "/images/lancelot.png"
+        image: "images/lancelot.png"
     },
     merlinx: {
         name: "Redmi Note 9 Merlinx",
-        image: "/images/merlinx.png"
+        image: "images/merlinx.png"
     }
 };
 
