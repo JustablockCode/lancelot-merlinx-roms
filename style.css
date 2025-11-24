@@ -1,0 +1,260 @@
+/* --- Reset & Base Style --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* --- Header --- */
+header {
+    width: 100%;
+    text-align: center;
+    padding: 60px 20px 40px;
+    background: rgba(24,24,24,0.6);
+    backdrop-filter: blur(20px) saturate(180%);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    animation: floatHeader 6s ease-in-out infinite;
+}
+
+header h1 {
+    font-size: 46px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #0a84ff, #5ac8fa, #0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientShift 8s ease infinite;
+}
+
+header p {
+    opacity: 0.8;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    animation: pulseText 4s ease-in-out infinite;
+}
+
+/* --- Main Container --- */
+#app {
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+/* --- Device Cards Grid --- */
+.device-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.device-card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px) saturate(180%);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: all 0.4s ease-in-out;
+    animation: floatCard 5s ease-in-out infinite;
+}
+
+.device-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    background: rgba(255,255,255,0.08);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+    border-color: rgba(10,132,255,0.5);
+}
+
+.device-card img {
+    width: 160px;
+    height: auto;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 15px rgba(0,0,0,0.6));
+    animation: floatImg 6s ease-in-out infinite;
+}
+
+.device-card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f1f1f1;
+    animation: pulseText 4s ease-in-out infinite;
+}
+
+/* --- ROM Grid --- */
+.rom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.rom-card {
+    background: rgba(255,255,255,0.06);
+    padding: 22px;
+    border-radius: 22px;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px) saturate(200%);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    transition: all 0.35s ease;
+    animation: floatCard 5s ease-in-out infinite alternate;
+}
+
+.rom-card:hover {
+    transform: translateY(-7px) scale(1.04);
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(10,132,255,0.6);
+}
+
+.rom-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    animation: pulseText 4s ease infinite;
+}
+
+/* --- Version Build List --- */
+.version-list {
+    margin-top: 35px;
+}
+
+.version-item {
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 22px;
+    border: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(15px) saturate(180%);
+    box-shadow: 0 6px 22px rgba(0,0,0,0.4);
+    transition: all 0.35s ease;
+    animation: floatCard 6s ease-in-out infinite alternate;
+}
+
+.version-item:hover {
+    transform: translateY(-6px) scale(1.03);
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(0,198,255,0.6);
+}
+
+.version-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.android-logo-big {
+    width: 180px; 
+    height: 180px; 
+    flex-shrink: 0;
+    filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
+    animation: floatImg 7s ease-in-out infinite;
+}
+
+.version-item h3 {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.version-item p {
+    opacity: 0.85;
+    margin: 3px 0;
+    animation: pulseText 5s ease-in-out infinite;
+}
+
+/* --- Buttons --- */
+.back-btn {
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 19px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.back-btn:hover {
+    opacity: 1;
+    color: #0a84ff;
+    transform: scale(1.05);
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 14px;
+    background: linear-gradient(135deg, #0a84ff, #5ac8fa, #0ff);
+    color: white;
+    padding: 14px 26px;
+    border-radius: 18px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.4s ease;
+    box-shadow: 0 6px 20px rgba(10,132,255,0.5);
+    animation: pulseButton 3s ease-in-out infinite;
+}
+
+.download-btn:hover {
+    background: linear-gradient(135deg, #006be6, #39c0ff, #0ff);
+    transform: scale(1.08);
+}
+
+/* ROM logos */
+.rom-image {
+    width: 120px;
+    height: auto;
+    margin-bottom: 12px;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+    animation: floatImg 6s ease-in-out infinite;
+}
+
+/* --- Animations --- */
+@keyframes floatCard {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes floatHeader {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+}
+
+@keyframes floatImg {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+}
+
+@keyframes pulseText {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 1; }
+}
+
+@keyframes pulseButton {
+    0%, 100% { box-shadow: 0 6px 20px rgba(10,132,255,0.5); }
+    50% { box-shadow: 0 12px 28px rgba(10,132,255,0.7); }
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
