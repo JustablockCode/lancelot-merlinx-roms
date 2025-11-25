@@ -113,7 +113,7 @@ function showROMVersions(device, romKey) {
                         <h3>${v.name} <span style="color:${statusColor}">(${v.status})</span></h3>
                         <p>Android: ${v.android}</p>
                         <p>Build Date: ${v.buildDate}</p>
-                        <p>Build Date: ${v.maintainer}</p>
+                        <p>Maintainer: ${v.maintainer}</p>
                         <p>Size: ${v.size}</p>
                         <a href="${v.link}" class="download-btn">Download</a>
                     </div>
