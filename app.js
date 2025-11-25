@@ -88,7 +88,7 @@ function showROMVersions(device, romKey) {
                 link: build.downloads[device].url,
                 size: build.downloads[device].size,
                 status: build.downloads[device].status,
-                maintainer: build.downloads[device].status
+                maintainer: build.downloads[device].maintainer
             });
         }
     }
