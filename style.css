@@ -85,11 +85,13 @@ header p {
 
 .device-card img {
     width: 160px;
-    height: auto;
+    height: 160px;
+    object-fit: contain;
     margin-bottom: 20px;
     filter: drop-shadow(0 0 15px rgba(0,0,0,0.6));
     animation: floatImg 6s ease-in-out infinite;
 }
+
 
 .device-card h2 {
     font-size: 24px;

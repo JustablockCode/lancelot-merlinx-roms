@@ -87,7 +87,8 @@ function showROMVersions(device, romKey) {
                 buildDate: build.downloads[device].build_date,
                 link: build.downloads[device].url,
                 size: build.downloads[device].size,
-                status: build.downloads[device].status
+                status: build.downloads[device].status,
+                maintainer: build.downloads[device].status
             });
         }
     }
@@ -95,7 +96,7 @@ function showROMVersions(device, romKey) {
     app.innerHTML = `
         <button class="back-btn" onclick="showDeviceInfo('${device}')">← Back</button>
         <h2>${rom.rom_name}</h2>
-        <p>Select build version</p>
+        <p>Select rom version.</p>
 
         <div class="version-list">
             ${versions.map(v => {
@@ -103,6 +104,7 @@ function showROMVersions(device, romKey) {
                 if (v.status.toLowerCase() === "official") statusColor = "green";
                 else if (v.status.toLowerCase() === "unofficial") statusColor = "red";
                 else if (v.status.toLowerCase() === "discontinued") statusColor = "yellow";
+                else if (v.status.toLowerCase() === "Community") statusColor = "purple";
                 else statusColor = "white";
 
                 return `
@@ -111,6 +113,7 @@ function showROMVersions(device, romKey) {
                         <h3>${v.name} <span style="color:${statusColor}">(${v.status})</span></h3>
                         <p>Android: ${v.android}</p>
                         <p>Build Date: ${v.buildDate}</p>
+                        <p>Build Date: ${v.maintainer}</p>
                         <p>Size: ${v.size}</p>
                         <a href="${v.link}" class="download-btn">Download</a>
                     </div>
@@ -123,3 +126,4 @@ function showROMVersions(device, romKey) {
         </div>
     `;
 }
+// why u looking here 🤨
