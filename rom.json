@@ -11,13 +11,15 @@
               "status": "Unofficial",
               "url": "https://t.me/prootooosdump/87",
               "size": "1.19GB",
-              "build_date": "2025-11-23"
+              "build_date": "2025-11-23",
+              "maintainer": "@prootooo on Telegram"
             },
             "merlinx": {
               "status": "Unofficial",
               "url": "https://t.me/prootooosdump/88",
               "size": "1.20GB",
-              "build_date": "2025-11-25"
+              "build_date": "2025-11-25",
+              "maintainer": "@prootooo on Telegram"
             }
           }
         },
@@ -29,13 +31,15 @@
               "status": "Unofficial",
               "url": "https://t.me/prootooosdump/54",
               "size": "1.2GB",
-              "build_date": "2025-11-07"
+              "build_date": "2025-11-07",
+              "maintainer": "@prootooo on Telegram"
             },
             "merlinx": {
               "status": "Unofficial",
               "url": "https://t.me/prootooosdump/58",
               "size": "1.2GB",
-              "build_date": "2025-11-07"
+              "build_date": "2025-11-07",
+              "maintainer": "@prootooo on Telegram"
             }
           }
         }
@@ -53,7 +57,8 @@
               "status": "Discontinued",
               "url": "https://sourceforge.net/projects/crdroid/files/merlinx/7.x/crDroidAndroid-11.0-20220407-merlinx-v7.16.zip/download",
               "size": "903.4MB",
-              "build_date": "2022-04-07"
+              "build_date": "2022-04-07",
+              "maintainer": "Evan Ferrao & Matsvei Niaverau"
             }
           }
         },
@@ -64,7 +69,8 @@
               "status": "Discontinued",
               "url": "https://sourceforge.net/projects/crdroid/files/merlinx/8.x/crDroidAndroid-12.1-20221126-merlinx-v8.11.zip/download",
               "size": "1.1GB",
-              "build_date": "2022-11-26"
+              "build_date": "2022-11-26",
+              "maintainer": "Evan Ferrao & Matsvei Niaverau"
             }
           }
         },
@@ -75,13 +81,15 @@
               "status": "Discontinued",
               "url": "https://sourceforge.net/projects/crdroid/files/merlinx/9.x/crDroidAndroid-13.0-20231030-merlinx-v9.10.zip/download",
               "size": "1GB",
-              "build_date": "2023-10-30"
+              "build_date": "2023-10-30",
+              "maintainer": "@raizel on Telegram"
             },
             "lancelot": {
               "status": "Discontinued",
               "url": "https://sourceforge.net/projects/crdroid/files/lancelot/9.x/crDroidAndroid-13.0-20231029-lancelot-v9.10.zip/download",
               "size": "996MB",
-              "build_date": "2023-10-29"
+              "build_date": "2023-10-29",
+              "maintainer": "@raizel on Telegram"
             }
           }
         },
@@ -92,7 +100,8 @@
               "status": "Discontinued",
               "url": "https://sourceforge.net/projects/crdroid/files/merlinx/10.x/crDroidAndroid-14.0-20231229-merlinx-v10.0.zip/download",
               "size": "1.1GB",
-              "build_date": "2023-12-29"
+              "build_date": "2023-12-29",
+              "maintainer": "Abhinav Kumar"
             }
           }
         },
@@ -103,7 +112,8 @@
               "status": "Discontinued",
               "url": "https://sourceforge.net/projects/crdroid/files/lancelot/10.x/crDroidAndroid-14.0-20241014-lancelot-v10.9.zip/download",
               "size": "1.2GB",
-              "build_date": "2024-10-14"
+              "build_date": "2024-10-14",
+              "maintainer": "@hipexscape on Telegram"
             }
           }
         },
@@ -114,7 +124,8 @@
               "status": "Discontinued",
               "url": "https://sourceforge.net/projects/crdroid/files/lancelot/11.x/crDroidAndroid-15.0-20250215-lancelot-v11.2.zip/download",
               "size": "1.2GB",
-              "build_date": "2025-02-15"
+              "build_date": "2025-02-15",
+              "maintainer": "@hipexscape on Telegram"
             }
           }
         },
@@ -125,7 +136,8 @@
               "status": "Unofficial",
               "url": "https://t.me/Mk7Repo/122",
               "size": "1.27GB",
-              "build_date": "2025-09-16"
+              "build_date": "2025-09-16",
+              "maintainer": "@doissM on Telegram"
             }
           }
         }
@@ -143,13 +155,15 @@
               "status": "Unofficial",
               "url": "https://t.me/prootooosdump/46",
               "size": "1.6GB",
-              "build_date": "2025-11-02"
+              "build_date": "2025-11-02",
+              "maintainer": "@prootooo on Telegram"
             },
             "merlinx": {
               "status": "Unofficial",
               "url": "https://t.me/prootooosdump/47",
               "size": "1.6GBGB",
-              "build_date": "2025-11-02"
+              "build_date": "2025-11-02",
+              "maintainer": "@prootooo on Telegram"
             }
           }
         }
